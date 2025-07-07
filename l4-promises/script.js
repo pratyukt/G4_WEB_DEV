@@ -141,9 +141,15 @@ fetchdata();
 async function displayProducts() {
     try {
         const response = await fetch('https://dummyjson.com/products');
-        const data = await response.json();
-        data.products.forEach(product => {
-            console.log(`Name: ${product.title}, Description: ${product.description}, Price: ${product.price}`);
+            const data = await response.json();
+            const productsDiv = document.getElementById('products');
+            data.products.forEach(product => {
+                const productElem = document.createElement('div');
+                productElem.innerHTML = `
+                    <div>${product.title}</div>
+                    <div>${product.description}</div>
+                    <div> Price: ${product.price}</div>`;
+                productsDiv.appendChild(productElem);
         });
     } catch (error) {
         console.log("Error fetching products:", error);
