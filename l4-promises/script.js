@@ -124,36 +124,3 @@ console.log("start kro");
 
 // check();
 
-// fetch('https://dummyjson.com/products');
-async function fetchdata(){
-    try{
-        const response = await fetch('https://dummyjson.com/products');
-        const jsondata = await response.json();
-        console.log(jsondata);
-    } catch (error) {
-        console.log("Error fetching data:", error);
-    }
-}
-
-fetchdata();
-
-//hw -fetch data from dummyjson.com/products and display the product names,desc,price in console
-async function displayProducts() {
-    try {
-        const response = await fetch('https://dummyjson.com/products');
-            const data = await response.json();
-            const productsDiv = document.getElementById('products');
-            data.products.forEach(product => {
-                const productElem = document.createElement('div');
-                productElem.innerHTML = `
-                    <div>${product.title}</div>
-                    <div>${product.description}</div>
-                    <div> Price: ${product.price}</div>`;
-                productsDiv.appendChild(productElem);
-        });
-    } catch (error) {
-        console.log("Error fetching products:", error);
-    }
-}
-
-displayProducts();
