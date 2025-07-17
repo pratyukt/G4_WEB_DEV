@@ -1,0 +1,11 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "node js pdhne ki tyaari",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,52 @@
+//documentation
+// workflow or wireframes - lucid chart
+//er diagram- database
+// boilerplate 
+
+//collab->
+// mkae 1 repo
+// make organization on github
+
+// we can integrate nodejs to any c++ programs
+// v8 engine -> web apis -> local, session host, settimeout
+
+//nodejs -> v8 engine-> c++ + libuv(superpowers)-> https + event loop
+
+//documentation -> nodejs, libuv -> to handle async i/o
+
+//dns -> google, cloudfare --- it is a phonebook
+
+client -> system cache -> isp -> dns server
+
+//client server sends data through tcp/ip
+
+// tcp-> 3way handshake, 4way handshake
+
+// tcp -> secure, reliable, slow -> http, ftp, pop3, icmp
+//udp -> not secure, not reliable, faster -> udp, game streams ->reduce latency
+
+// static vs dhcp
+
+//flags -> urgency of packets
+
+//node -> common js, ejs
+//cjs -> sync, module.exports, non-strict
+//ejs-> async, import-export, strict
+
+//scalable, readable, reusable, backend
+
+
+// in modules module is working in iife
+// module is wrapped inside iife
+
+// libuv -> system operations offloaded to libuv ->contains threadpool
+
+//setimmediate -> runs on every cycle of event loop only once 
+//process.nextTick -> fires immediately on the same phase every tick of event loop
+
+//node will block when appropriate
+
+//event emitter -> event handler
+
+//dns module-> nmap ->
+//icmp, ping, 
