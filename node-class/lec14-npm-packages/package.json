@@ -1,0 +1,14 @@
+{
+  "name": "package_calculate",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5"
+  }
+}

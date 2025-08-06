@@ -50,3 +50,22 @@ client -> system cache -> isp -> dns server
 
 //dns module-> nmap ->
 //icmp, ping, 
+
+//fs -> posix-> portable operating system interface -> works everywhere ->
+//unlink-> to delete a file
+//iife
+
+//streams-> continous flow of data
+//streams vs pipelines
+//filestream -> to handle large set of data
+// r+, w+, a, a+
+
+// make your own package
+// changeset/cli
+
+//cap theorm -> c-> consistency, a-> availibity, p-> partition tolerance
+on the basis of cap theorm we design our database
+
+//express -> it is a wrapper of nodejs -> helpful in restful apis -> 
+//seo optimization
+//use vs all -> use continues to move to the next url whereas all is strict to its path 
